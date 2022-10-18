@@ -2,7 +2,7 @@
   "main": {
     "name":"Xiaoqian Zhang's Page",
     "description":"I'm a Ph.D. student at UMass Boston, working with Prof. Bo Sheng",
-    "image":"profilepic.jpg",
+    "image":"Xiaoqian.JPG",
     "bio":"Hello world",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
     "email": "xzhang0789@gmail.com",
@@ -98,16 +98,19 @@
         "years":"Jun. 2020 - May 2022",
         "description":[
           "Apply Deep Learning algorithms to conduct object-based identification and motion detection on International Atomic Energy Agency (IAEA) safeguards video surveillance",
-          "Implement YOLOv2, YOLOv3, and Cross-Camera Re-Identification algorithms to train Deep Learning models with IAEA safeguards surveillance camera image datasets to detect target objects"
+          "Implement YOLOv2, YOLOv3, and Cross-Camera Re-Identification algorithms to train Deep Learning models with IAEA safeguards surveillance camera image datasets to detect target objects",
+          "Tone hyper-parameters for Deep Learning models to optimize prediction results",
+          "Assist team with designing, testing and delivering the YOLOv3 based object detection UI software to IAEA safeguards to automate the process of suspicious objects detection with a 92.3% accuracy"
         ]
       },
       {
-        "company":"Super Cool Studio",
-        "title":"Junior bug fixer",
-        "years":"March 2017 - February 2018",
+        "company":"Air Force Research Laboratory",
+        "title":"Summer Internship Research Assistant / AFRL Eglin Laboratory",
+        "years":"Summer 2019",
         "description":[
-          "asd"
-
+          "Detection of Rouge Transmitter in Radio Frequency Machine Learning (RFML) system with the image (graphed transmitter fingerprinting) classification approach",
+          "Assist team with pre-processing the transmitter fingerprinting images: the graphed raw radio frequency I/Q signal data image dataset",
+          "Participate in the design of a Deep Neural Network for multi-class classification for transmitter fingerprinting"
         ]
       }
     ],
@@ -142,6 +145,10 @@
       }
     ]
   },
+  "publications" : [
+    "a",
+    "b"
+  ],
   "portfolio":{
     "projects": [
       {

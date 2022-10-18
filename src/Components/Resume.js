@@ -52,6 +52,12 @@ class Resume extends Component {
       );
     });
 
+    const publications = this.props.data.publications.map((item)=>{
+        return <ol>
+            <li>{item}</li>
+        </ol>
+    })
+
     const teaching = this.props.data.teaching.map(function (teaching) {
       return (
         <div key={teaching.company}>
@@ -114,6 +120,19 @@ class Resume extends Component {
             <div className="nine columns main-col">{teaching}</div>
           </div>
         </Slide>
+
+                  <Slide left duration={1300}>
+          <div className="row work">
+            <div className="three columns header-col">
+              <h1>
+                <span>Publications</span>
+              </h1>
+            </div>
+
+            <div className="nine columns main-col">{publications}</div>
+          </div>
+        </Slide>
+
 
         <Slide left duration={1300}>
           <div className="row work">
