@@ -1,6 +1,10 @@
 import React, { Component } from "react";
 import Slide from "react-reveal";
-
+import {List, Space} from "antd";
+import { createFromIconfontCN} from '@ant-design/icons';
+const IconFont = createFromIconfontCN({
+  scriptUrl: '//at.alicdn.com/t/font_8d5l8fzk5b87iudi.js',
+});
 class Resume extends Component {
   getRandomColor() {
     let letters = "0123456789ABCDEF";
@@ -36,7 +40,34 @@ class Resume extends Component {
             {work.title}
             <span>&bull;</span> <em className="date">{work.years}</em>
           </p>
-          <p>{work.description}</p>
+                <List
+                  dataSource={work.description}
+                  renderItem={item => <List.Item>
+                    <Space>
+                      <IconFont type="icon-tuichu" />{item}
+                    </Space>
+                  </List.Item>}
+                />
+        </div>
+      );
+    });
+
+    const teaching = this.props.data.teaching.map(function (teaching) {
+      return (
+        <div key={teaching.company}>
+          <h3>{teaching.company}</h3>
+            <p style={{fontSize:"1.2em"}}>{teaching.title} <span>  &bull;  </span>
+                <em className="date">{teaching.years}</em>
+            </p>
+
+              <List
+              dataSource={teaching.description}
+              renderItem={item => <List.Item>
+                <Space>
+                  <IconFont type="icon-tuichu" />{item}
+                </Space>
+              </List.Item>}
+            />
         </div>
       );
     });
@@ -76,13 +107,26 @@ class Resume extends Component {
           <div className="row work">
             <div className="three columns header-col">
               <h1>
-                <span>Work</span>
+                <span>Teaching</span>
+              </h1>
+            </div>
+
+            <div className="nine columns main-col">{teaching}</div>
+          </div>
+        </Slide>
+
+        <Slide left duration={1300}>
+          <div className="row work">
+            <div className="three columns header-col">
+              <h1>
+                <span>Industry</span>
               </h1>
             </div>
 
             <div className="nine columns main-col">{work}</div>
           </div>
         </Slide>
+
 
         <Slide left duration={1300}>
           <div className="row skill">
