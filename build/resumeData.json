@@ -1,0 +1,228 @@
+{
+  "main": {
+    "name":"Xiaoqian Zhang's Page",
+    "description":"I'm a Ph.D. student at UMass Boston, working with Prof. Bo Sheng",
+    "image":"Xiaoqian.JPG",
+    "bio":"Hello world",
+    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
+    "email": "xzhang0789@gmail.com",
+    "phone": "718-928-5022",
+    "github":"https://github.com/TiffanyXQZ",
+    "project":"https://github.com/nordicgiant2/react-nice-resume",
+    "address":{
+      "street":"(Your Street)",
+      "city":"(Your City)",
+      "state":"(Your State)",
+      "zip": "(Your Zip/Postal Code)"
+    },
+    "website": "http://www.timbakerdev.com",
+    "resumedownload":"http://timbakerdev.com",
+    "social":[
+      {
+        "name":"facebook",
+        "url":"https://github.com/nordicgiant2/react-nice-resume",
+        "className":"fa fa-facebook"
+      },
+      {
+        "name":"twitter",
+        "url":"http://twitter.com",
+        "className":"fa fa-twitter"
+      },
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/tim-baker-8420009a/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"instagram",
+        "url":"http://instagram.com/tbaker_x",
+        "className":"fa fa-instagram"
+      },
+      {
+        "name":"github",
+        "url":"https://github.com/nordicgiant2/react-nice-resume",
+        "className":"fa fa-github"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
+    "education":[
+      {
+        "school":"University of Massachusetts",
+        "degree":"Ph.D in Computer Science",
+        "graduated":"Jan. 2018 - Expecting at April 2023",
+        "description":"Working with Prof. Bo Sheng on networking and machine learning."
+      },
+      {
+        "school":"New York University",
+        "degree":"Master of Science",
+        "graduated":"Sep. 2012 - May 2014",
+        "description":"Gain my master degree in math"
+      },
+      {
+        "school":"Skidmore College",
+        "degree":"Bachelor of Art, Mathematics and Economics,",
+        "graduated":"Sep. 2012 - May 2014",
+        "description":"Gain my Bachelor degree in math"
+      }
+    ],
+    "teaching":[
+      {
+        "company":"Lecturer",
+        "title":"Introduction to Computer Concepts (CS105) ",
+        "years":"Spring 2019 - Present",
+        "description":[
+          "Instruct this introductory course for 8 semesters starting Spring 2019: both in-person and virtual lectures (during pandemic) with class size of more than 50 students",
+          "Deliver three 50-min lectures weekly, covering topics of overall computer concepts - computer applications, capabilities and limitations",
+          "Design course presentation slides, class exercises, exams, assignments",
+          "This course presents an overview of computer concepts - computer applications, capabilities and limitations",
+          "Motivate college students from diverse backgrounds to explore the subject of computer science"
+        ]
+      },
+      {
+        "company":"Teaching Assistant",
+        "title":"Applied Discrete Mathematics (CS 220)",
+        "years":"Jan 2018 - Dec 2018",
+        "description": [
+          "Assist the instructor to develop, post and grade students’ assignments through the Grade Scope modules",
+          "Answer students’ questions through the Piazza course portal",
+          "Host in-person Q&A sessions during office hours twice a week"
+        ]
+      }
+    ],
+        "work":[
+      {
+        "company":"Brookhaven National Laboratory",
+        "title":"Contractor Research Assistant / Nonproliferation and National Security Department",
+        "years":"Jun. 2020 - May 2022",
+        "description":[
+          "Apply Deep Learning algorithms to conduct object-based identification and motion detection on International Atomic Energy Agency (IAEA) safeguards video surveillance",
+          "Implement YOLOv2, YOLOv3, and Cross-Camera Re-Identification algorithms to train Deep Learning models with IAEA safeguards surveillance camera image datasets to detect target objects",
+          "Tone hyper-parameters for Deep Learning models to optimize prediction results",
+          "Assist team with designing, testing and delivering the YOLOv3 based object detection UI software to IAEA safeguards to automate the process of suspicious objects detection with a 92.3% accuracy"
+        ]
+      },
+      {
+        "company":"Air Force Research Laboratory",
+        "title":"Summer Internship Research Assistant / AFRL Eglin Laboratory",
+        "years":"Summer 2019",
+        "description":[
+          "Detection of Rouge Transmitter in Radio Frequency Machine Learning (RFML) system with the image (graphed transmitter fingerprinting) classification approach",
+          "Assist team with pre-processing the transmitter fingerprinting images: the graphed raw radio frequency I/Q signal data image dataset",
+          "Participate in the design of a Deep Neural Network for multi-class classification for transmitter fingerprinting"
+        ]
+      }
+    ],
+    "skills":[
+      {
+        "name":"Python",
+        "level":"60%"
+      },
+      {
+        "name":"VueJs",
+        "level":"55%"
+      },
+      {
+        "name":"ReactJs",
+        "level":"50%"
+      },
+      {
+        "name":"CSS",
+        "level":"90%"
+      },
+      {
+        "name":"PHP",
+        "level":"80%"
+      },
+      {
+        "name":"Swift",
+        "level":"50%"
+      },
+      {
+        "name":"JAVA",
+        "level":"80%"
+      }
+    ]
+  },
+  "publications" : [
+    "a",
+    "b"
+  ],
+  "portfolio":{
+    "projects": [
+      {
+        "title":"Canadian Wanderlust",
+        "category":"My Travel Blog for my post-university travels",
+        "image":"01.jpg",
+        "url":"https://www.canadianwanderlust.com"
+      },
+      {
+        "title":"Fury Fighting Gear",
+        "category":"(offline now) A fighting gear company I started",
+        "image":"02.jpg",
+        "url":"http://www.timbakerdev.com"
+      },
+      {
+        "title":"Original Thai Food",
+        "category":"Website I built for a restaurant I like in Thailand",
+        "image":"03.jpg",
+        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+      },
+      {
+        "title":"Resume Website",
+        "category":"A React based resume website template",
+        "image":"04.jpg",
+        "url":"http://www.timbakerdev.com"
+      },
+      {
+        "title":"Smirkspace",
+        "category":"(MVP Only) A React and Meteor based chat University project.",
+        "image":"05.jpg",
+        "url":"http://www.smirkspace.com"
+      },
+      {
+        "title":"Canadian Wanderlust",
+        "category":"My Travel Blog for my post-university travels",
+        "image":"06.jpg",
+        "url":"https://www.canadianwanderlust.com"
+      },
+      {
+        "title":"Fury Fighting Gear",
+        "category":"(offline now) A fighting gear company I started",
+        "image":"01.jpg",
+        "url":"http://www.timbakerdev.com"
+      },
+      {
+        "title":"Original Thai Food",
+        "category":"Website I built for a restaurant I like in Thailand",
+        "image":"02.jpg",
+        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+      },
+      {
+        "title":"Original Thai Food",
+        "category":"Website I built for a restaurant I like in Thailand",
+        "image":"03.jpg",
+        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+      },
+      {
+        "title":"Resume Website",
+        "category":"A React based resume website template",
+        "image":"04.jpg",
+        "url":"http://www.timbakerdev.com"
+      },
+      {
+        "title":"Smirkspace",
+        "category":"(MVP Only) A React and Meteor based chat University project.",
+        "image":"05.jpg",
+        "url":"http://www.smirkspace.com"
+      },
+      {
+        "title":"Canadian Wanderlust",
+        "category":"My Travel Blog for my post-university travels",
+        "image":"06.jpg",
+        "url":"https://www.canadianwanderlust.com"
+      }
+    ]
+  }
+}
