@@ -46,6 +46,45 @@
     ]
   },
   "resume":{
+    "references": [
+      {
+        "name": "Bo Sheng (Ph.d. Advisor)",
+        "info": "Associate Professor, Department of Computer Science, University of Massachusetts Boston, E-mail: bo.Sheng@umb.edu, Tel: 617-287-6468",
+        "link": "https://www.cs.umb.edu/~shengbo/"
+      },
+      {
+        "name": "Ningfang Mi",
+        "info": "Associate Professor, Department of Computer Engineering, Northeastern University E-mail: ningfang@ece.neu.edu, Tel: (617)373-3028",
+        "link": "http://www1.ece.neu.edu/~ningfang/"
+      },
+      {
+        "name": "Marc Pomplum",
+        "info": "Department Chairman, Department of Computer Science, University of Massachusetts Boston, E-mail: marc.pomplun@umb.edu, Tel: 617-287-6443",
+        "link": "https://www.cs.umb.edu/~marc/"
+      }
+    ],
+    "awards": [
+      "Travel Grant on GRA-W Grad Cohort Workshop, Virtual  in 2020",
+      "Travel Grant on GRA-W Grad Cohort Workshop, Chicago  in 2019"
+    ],
+      "publications" : [
+        {
+          "name":  "CODS: Cloud-assisted Object Detection for Streaming Videos on Edge Devices",
+          "forum": "IEEE International Performance, Computing, and Communications Conference (IPCCC), October 2021",
+          "link": "https://ieeexplore.ieee.org/document/9679395",
+          "authors" :"Tengpeng Li, Xiaoqian Zhang, Nam S Nguyen, Bo Sheng"
+        } ,
+        {
+          "name":  "CODS: Cloud-assisted Object Detection for Streaming Videos on Edge Devices",
+          "forum": "IEEE International Performance, Computing, and Communications Conference (IPCCC), October 2021",
+          "link": "https://ieeexplore.ieee.org/document/9679395",
+          "authors" :"Tengpeng Li, Xiaoqian Zhang, Nam S Nguyen, Bo Sheng"
+        }
+  ],
+    "underreview" : [
+    "a",
+    "b"
+  ],
     "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
     "education":[
       {
@@ -145,10 +184,6 @@
       }
     ]
   },
-  "publications" : [
-    "a",
-    "b"
-  ],
   "portfolio":{
     "projects": [
       {

@@ -52,14 +52,42 @@ class Resume extends Component {
       );
     });
 
-    const publications = this.props.data.publications.map((item)=>{
-        return <ol>
+    const publications = this.props.data.publications.map((item, index)=>{
+        const words = item.authors.split('Xiaoqian Zhang')
+        return (
+
+        <li >
+                      <u><h6><a href={item.link}>{item.name}</a></h6></u>
+           <p>{item.forum} </p>
+          <p >
+              {words[0]}
+              <b>Xiaoqian Zhang</b>
+              {words[1]}
+          </p>
+        </li>
+      )
+    })
+      const awards = this.props.data.awards.map((item)=> <li><h6>{item}</h6></li>);
+
+
+  const under_review = this.props.data.underreview.map((item)=>{
+         <ol>
             <li>{item}</li>
         </ol>
+    });
+
+      const references = this.props.data.references.map((item)=>{
+
+          return (<li>
+                            <u><h6><a href={item.link}>{item.name}</a></h6></u>
+            <p>{item.info}</p>
+            </li>)
+
+
     })
 
     const teaching = this.props.data.teaching.map(function (teaching) {
-      return (
+       return (
         <div key={teaching.company}>
           <h3>{teaching.company}</h3>
             <p style={{fontSize:"1.2em"}}>{teaching.title} <span>  &bull;  </span>
@@ -121,17 +149,7 @@ class Resume extends Component {
           </div>
         </Slide>
 
-                  <Slide left duration={1300}>
-          <div className="row work">
-            <div className="three columns header-col">
-              <h1>
-                <span>Publications</span>
-              </h1>
-            </div>
 
-            <div className="nine columns main-col">{publications}</div>
-          </div>
-        </Slide>
 
 
         <Slide left duration={1300}>
@@ -145,7 +163,55 @@ class Resume extends Component {
             <div className="nine columns main-col">{work}</div>
           </div>
         </Slide>
+                  <Slide left duration={1300}>
+          <div className="row work">
+            <div className="three columns header-col">
+              <h1>
+                <span>Publications</span>
+              </h1>
+            </div>
 
+            <div className="nine columns main-col"><ol>{publications}</ol></div>
+          </div>
+        </Slide>
+
+      <Slide left duration={1300}>
+          <div className="row work">
+            <div className="three columns header-col">
+              <h1>
+                <span>Under-Review</span>
+              </h1>
+            </div>
+
+            <div className="nine columns main-col">{under_review}</div>
+          </div>
+        </Slide>
+
+
+    <Slide left duration={1300}>
+          <div className="row work">
+            <div className="three columns header-col">
+              <h1>
+                <span>Awards</span>
+              </h1>
+            </div>
+
+              <div className="nine columns main-col"><ol>{awards}</ol></div>
+          </div>
+        </Slide>
+
+
+      <Slide left duration={1300}>
+          <div className="row work">
+            <div className="three columns header-col">
+              <h1>
+                <span>references</span>
+              </h1>
+            </div>
+
+            <div className="nine columns main-col"><ol>{references}</ol></div>
+          </div>
+        </Slide>
 
         <Slide left duration={1300}>
           <div className="row skill">
