@@ -128,7 +128,6 @@ class Resume extends Component {
                 <span>Education</span>
               </h1>
             </div>
-
             <div className="nine columns main-col">
               <div className="row item">
                 <div className="twelve columns">{education}</div>
@@ -136,6 +135,8 @@ class Resume extends Component {
             </div>
           </div>
         </Slide>
+
+                  <section id="teaching">
 
         <Slide left duration={1300}>
           <div className="row work">
@@ -148,15 +149,14 @@ class Resume extends Component {
             <div className="nine columns main-col">{teaching}</div>
           </div>
         </Slide>
+                  </section>
 
 
-
-
-        <Slide left duration={1300}>
+        <Slide id='work' left duration={1300}>
           <div className="row work">
             <div className="three columns header-col">
               <h1>
-                <span>Industry</span>
+                <span >Industry</span>
               </h1>
             </div>
 
@@ -213,23 +213,23 @@ class Resume extends Component {
           </div>
         </Slide>
 
-        <Slide left duration={1300}>
-          <div className="row skill">
-            <div className="three columns header-col">
-              <h1>
-                <span>Skills</span>
-              </h1>
-            </div>
+        {/*<Slide left duration={1300}>*/}
+        {/*  <div className="row skill">*/}
+        {/*    <div className="three columns header-col">*/}
+        {/*      <h1>*/}
+        {/*        <span>Skills</span>*/}
+        {/*      </h1>*/}
+        {/*    </div>*/}
 
-            <div className="nine columns main-col">
-              <p>{skillmessage}</p>
+        {/*    <div className="nine columns main-col">*/}
+        {/*      <p>{skillmessage}</p>*/}
 
-              <div className="bars">
-                <ul className="skills">{skills}</ul>
-              </div>
-            </div>
-          </div>
-        </Slide>
+        {/*      <div className="bars">*/}
+        {/*        <ul className="skills">{skills}</ul>*/}
+        {/*      </div>*/}
+        {/*    </div>*/}
+        {/*  </div>*/}
+        {/*</Slide>*/}
       </section>
     );
   }
