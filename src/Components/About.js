@@ -10,6 +10,7 @@ class About extends Component {
     const bio = this.props.data.bio;
     const street = this.props.data.address.street;
     const city = this.props.data.address.city;
+    const department = this.props.data.address.department;
     const state = this.props.data.address.state;
     const zip = this.props.data.address.zip;
     const phone = this.props.data.phone;
@@ -35,10 +36,12 @@ class About extends Component {
                 <div className="columns contact-details">
                   <h2>Contact Details</h2>
                   <p className="address">
-                    <span>{name}</span>
-                    <br />
+
                     <span>
                       {street}
+                      <br/>
+                      {department}
+
                       <br />
                       {city} {state}, {zip}
                     </span>

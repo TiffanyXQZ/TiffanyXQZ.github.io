@@ -71,9 +71,19 @@ class Resume extends Component {
 
 
   const under_review = this.props.data.underreview.map((item)=>{
-         <ol>
-            <li>{item}</li>
-        </ol>
+         const words = item.authors.split('Xiaoqian Zhang')
+        return (
+
+        <li >
+                      <u><h6><a href={item.link}>{item.name}</a></h6></u>
+           <p>{item.forum} </p>
+          <p >
+              {words[0]}
+              <b>Xiaoqian Zhang</b>
+              {words[1]}
+          </p>
+        </li>
+      )
     });
 
       const references = this.props.data.references.map((item)=>{
@@ -163,11 +173,11 @@ class Resume extends Component {
             <div className="nine columns main-col">{work}</div>
           </div>
         </Slide>
-                  <Slide left duration={1300}>
+                  <Slide left duration={1300} >
           <div className="row work">
             <div className="three columns header-col">
               <h1>
-                <span>Publications</span>
+                <span id="publications">Publications</span>
               </h1>
             </div>
 
@@ -183,7 +193,7 @@ class Resume extends Component {
               </h1>
             </div>
 
-            <div className="nine columns main-col">{under_review}</div>
+              <div className="nine columns main-col"><ol>{under_review}</ol></div>
           </div>
         </Slide>
 

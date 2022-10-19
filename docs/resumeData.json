@@ -3,20 +3,21 @@
     "name":"Xiaoqian Zhang's Page",
     "description":"I'm a Ph.D. student at UMass Boston, working with Prof. Bo Sheng",
     "image":"Xiaoqian.JPG",
-    "bio":"Hello world",
+    "bio":"I am a graduating Ph.D. student in Computer Science Department at University of Massachusetts Boston (under the supervision of Professor Bo Sheng). I received my B.A. from Skidmore College in 2012, majored in Mathematics and Economics. Then I received my M.S. from New York University in 2014, majored in Mathematics. My research interests include congestion control in lossless networks, image processing in deep learning. During the passed four years, I have collaborated with Air Force Research Laboratory, Brookhaven National Laboratory, and Samsung on several research projects",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
-    "email": "xzhang0789@gmail.com",
+    "email": "xiaoqian.zhang001@umb.edu",
     "phone": "718-928-5022",
     "github":"https://github.com/TiffanyXQZ",
-    "project":"https://github.com/nordicgiant2/react-nice-resume",
+    "project":"#publications",
     "address":{
-      "street":"(Your Street)",
-      "city":"(Your City)",
-      "state":"(Your State)",
-      "zip": "(Your Zip/Postal Code)"
+      "street":"100 Morrissey Boulevard",
+      "department":"Department of Computer Science University of Massachusetts Boston",
+      "city":"Boston",
+      "state":"MA",
+      "zip": "02125"
     },
-    "website": "http://www.timbakerdev.com",
-    "resumedownload":"http://timbakerdev.com",
+    "website": "https://tiffanyxqz.github.io/",
+    "resumedownload":"xiaoqian_cv.pdf",
     "social":[
       {
         "name":"facebook",
@@ -75,15 +76,49 @@
           "authors" :"Tengpeng Li, Xiaoqian Zhang, Nam S Nguyen, Bo Sheng"
         } ,
         {
-          "name":  "CODS: Cloud-assisted Object Detection for Streaming Videos on Edge Devices",
-          "forum": "IEEE International Performance, Computing, and Communications Conference (IPCCC), October 2021",
-          "link": "https://ieeexplore.ieee.org/document/9679395",
-          "authors" :"Tengpeng Li, Xiaoqian Zhang, Nam S Nguyen, Bo Sheng"
+          "name":  "SNIS:Storage-Network Iterative Simulation for Disaggregated Storage Systems",
+          "forum": "IEEE International Performance, Computing, and Communications Conference (IPCCC), Oct. 2021",
+          "link": "https://ieeexplore.ieee.org/document/9679397",
+          "authors" :"Danlin Jia, Tengpeng Li, Xiaoqian Zhang, Li Wang, Mahsa Bayati, Ron Lee, Bo Sheng, Ningfang Mi,"
+        },
+        {
+          "name":  "PROMAR: Practical Reference Object-based Multi-user Augmented Reality",
+          "forum": "IEEE Internation Conference on Computer Communications (INFOCOM), Jul. 2020",
+          "link": "https://ieeexplore.ieee.org/document/9155506",
+          "authors" :"Tengpeng Li, Nam Son Nguyen, Xiaoqian Zhang, Teng Wang, Bo Sheng"
+        },
+        {
+          "name":  "Audio Noise Filter using Cycle Consistent Adversarial Network-CyclesGAN ANF",
+          "forum": "IEEE International Conference on Computer and Communications (ICCC), Dec. 2019",
+          "link": "https://ieeexplore.ieee.org/document/9064433",
+          "authors" :"Nam Son Nguyen, Tengpeng Li, Xiaoqian Zhang, Teng Wang, Jiayin Wang, Bo Sheng"
+        },
+        {
+          "name":  "FARES: Fast and Accurate Recognition of Exact Scenes on Mobile Devices",
+          "forum": "IEEE International Conference on Computing, Networking and Communications (ICNC), Feb. 2019",
+          "link": "https://ieeexplore.ieee.org/document/8685637",
+          "authors" :"Tengpeng Li, Xiaoqian Zhang, Teng Wang, Nam Son Nguyen, Xiaohui Liang, Bo Sheng"
+        },
+        {
+          "name":  "ROVER: Robust and Verifiable Erasure Code for Hadoop Distributed File Systems",
+          "forum": "IEEE International Conference on Computer Communication and Networks (ICCCN), Jul. 2018",
+          "link": "https://ieeexplore.ieee.org/document/8487406",
+          "authors" :"Teng Wang, Nam Son Nguyen, Jiayin Wang, Tengpeng Li, Xiaoqian Zhang, Ningfang Mi, Bin Zhao, Bo Sheng"
+        },
+        {
+          "name":  "OWLBIT: Orchestrating Wireless Transmissions for Launching Big Data Platforms in an Internet of Things Environment",
+          "forum": "IEEE International Conference on Cloud Computing (CLOUD), Jul. 2018",
+          "link": "https://ieeexplore.ieee.org/document/8457879",
+          "authors" :"Nam Son Nguyen, Teng Wang, Tengpeng Li, Xiaoqian Zhang, Bo Sheng, Ningfang Mi, Bin Zhao"
         }
   ],
     "underreview" : [
-    "a",
-    "b"
+            {
+          "name":  "DIRS: Dynamic Initial Rate Setting in Congestion Control for Disaggregated Storage Systems",
+          "forum": "IEEE International Conference on Computing, Networking and Communications (ICNC), Feb. 2023",
+          "link": "-",
+          "authors" :"Xiaoqian Zhang, Bo Sheng"
+        }
   ],
     "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
     "education":[
@@ -91,19 +126,19 @@
         "school":"University of Massachusetts",
         "degree":"Ph.D in Computer Science",
         "graduated":"Jan. 2018 - Expecting at April 2023",
-        "description":"Working with Prof. Bo Sheng on networking and machine learning."
+        "description":"Working with Prof. Bo Sheng"
       },
       {
         "school":"New York University",
         "degree":"Master of Science",
         "graduated":"Sep. 2012 - May 2014",
-        "description":"Gain my master degree in math"
+        "description":""
       },
       {
         "school":"Skidmore College",
         "degree":"Bachelor of Art, Mathematics and Economics,",
         "graduated":"Sep. 2012 - May 2014",
-        "description":"Gain my Bachelor degree in math"
+        "description":""
       }
     ],
     "teaching":[
